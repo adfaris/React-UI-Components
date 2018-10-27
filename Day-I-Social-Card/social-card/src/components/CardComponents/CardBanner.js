@@ -3,12 +3,13 @@ import './Card.css'
 
 const CardBanner = () => {
   return (
-    <a className="class-banner" href="https://reactjs.org">
+    <a className="banner-container-wrapper" href="https://reactjs.org">
       <img
-        alt="logo"
-        className="banner-image"
+        alt="react logo"
+        className="banner-img"
         src="https://ibin.co/3wnC6SgIOJud.png"
       />
     </a>
   )
 }
+export default CardBanner
